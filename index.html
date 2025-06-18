@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chandni Suri | Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">Chandni <span>Suri</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hello, I'm <span>Chandni</span></h1>
+      <h3 class="text-animation">Frontend <span>Developer</span></h3>
+      <p>
+        🎓 A passionate Computer Science student at NRI Institute of Science and Technology, Bhopal.<br>
+        💻 Skilled in Frontend Development, Python, and Database Management.<br>
+        🌱 Looking to gain real-world experience through internships and hands-on projects.
+      </p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/chandni-suri-2639052ba/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Chandni-suri" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+      <div class="btn-group">
+        <a href="mailto:chandnikrishna2@gmail.com" class="btn">Email Me</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="cs.jpg" alt="Chandni's Photo" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Education Section git remote add origin https://github.com/YourUsername/your-repo-name.git
+-->
+  <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+    <div class="timeline-items">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 – 2027</div>
+        <div class="timeline-content">
+          <h3>NRI Institute of Science and Technology, Bhopal</h3>
+          <p>B.Tech in Computer Science and Engineering<br>CGPA: 6.9</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 – 2023</div>
+        <div class="timeline-content">
+          <h3>Govt. Senior Secondary Smart School (Multipurpose), Ludhiana</h3>
+          <p>PSEB Board (12th Grade)<br>Percentage: 70%</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2010 – 2020</div>
+        <div class="timeline-content">
+          <h3>Holy Dale Public High School, Ludhiana</h3>
+          <p>PSEB Board (10th Grade)<br>Percentage: 95%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+    <div class="projects-container">
+      <div class="projects-box">
+        <h1>📚 <strong>RTS Quiz Web App</strong></h1>
+        <p>Role: <strong>Frontend Developer</strong></p>
+        <ul>
+          <li>Designed responsive UI using HTML, CSS, JavaScript</li>
+          <li>Created multiple-choice quiz interface with timers</li>
+          <li>Ensured mobile responsiveness & cross-browser support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="projects" id="certifications">
+    <h2 class="heading">Certifications</h2>
+    <div class="projects-container">
+      <div class="projects-box">
+        <h1>🛡️ <strong>Introduction to Cybersecurity</strong></h1>
+        <p>Cisco Networking Academy — October 2024</p>
+      </div>
+      <div class="projects-box">
+        <h1>🌐 <strong>Frontend Developer</strong></h1>
+        <p>RID Bharat — September 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact Me</h2>
+    <div class="contact-container">
+      <form action="mailto:chandnikrishna2@gmail.com" method="post" enctype="text/plain" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><i class="fas fa-envelope"></i> Email: chandnikrishna2@gmail.com</p>
+        <p><i class="fas fa-phone"></i> Phone: +91 97803 09405</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: Ludhiana, Punjab</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 Chandni Suri | All Rights Reserved</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/chandni-suri-2639052ba/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Chandni-suri" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
